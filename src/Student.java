@@ -10,7 +10,15 @@ class Student extends Human {
     }
 
     @Override
-    String infoAboutHuman() {
+    public String toString() {
+        return firstName + " " + secondName + " " +super.toString();
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getSecondName() {
         return secondName;
     }
 }

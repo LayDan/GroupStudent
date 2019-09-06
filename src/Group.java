@@ -14,7 +14,7 @@ public class Group {
             }
         }
         if (add) {
-            System.out.println(student.infoAboutHuman() + " был добавлен в группу");
+            System.out.println(student.getFirstName()+" "+student.getSecondName()+ " был добавлен в группу");
         } else {
             System.out.println("Группа заполненна, нельзя добавить студента");
         }
@@ -34,7 +34,8 @@ public class Group {
         } else {
             number -= 1;
             if (listAboutGroup[number] != null) {
-                System.out.println(listAboutGroup[number].infoAboutHuman() + " покинул группу");
+                System.out.println(listAboutGroup[number].getFirstName()+ " "
+                        + listAboutGroup[number].getSecondName() + " покинул группу");
                 listAboutGroup[number] = null;
             } else {
                 System.out.println("Выбраное место и так пустое");
@@ -46,7 +47,7 @@ public class Group {
 
         for (Student a : listAboutGroup) {
             try {
-                if (secondNAme.equals(a.infoAboutHuman())) {
+                if (secondNAme.equals(a.getSecondName())) {
                     System.out.println("Студент с данной фамилией существует в группе");
                     break;
                 }
@@ -63,8 +64,8 @@ public class Group {
         for (int i = 0; i < listAboutGroup.length - 1; i++) {
             for (int j = 0; j < listAboutGroup.length - i - 1; j++) {
                 try {
-                    if ((int) listAboutGroup[j].infoAboutHuman().charAt(0) >
-                            (int) listAboutGroup[j + 1].infoAboutHuman().charAt(0)) {
+                    if ((int) listAboutGroup[j].toString().charAt(0) >
+                            (int) listAboutGroup[j + 1].toString().charAt(0)) {
                         Student temp = listAboutGroup[j];
                         listAboutGroup[j] = listAboutGroup[j + 1];
                         listAboutGroup[j + 1] = temp;
@@ -77,7 +78,7 @@ public class Group {
         String out = "";
         for (int i = 0; i < listAboutGroup.length; i++) {
             try {
-                out = out.concat(i + 1 + ")" + listAboutGroup[i].infoAboutHuman() + "\n");
+                out = out.concat(i + 1 + ")" + listAboutGroup[i].toString() + "\n");
             } catch (NullPointerException ignored) {
 
             }

@@ -9,7 +9,9 @@ class Human {
         this.weight = weight;
     }
 
-    String infoAboutHuman() {
-        return "age = " + age + "\n height = " + height + "\n weight = " + weight;
+    @Override
+    public String toString() {
+        return "age: " + age + "; height: " + height + "; weight: " + weight;
     }
+
 }
