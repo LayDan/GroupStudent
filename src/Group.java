@@ -5,7 +5,11 @@ import java.util.Date;
 
 public class Group implements IGroup, ICommissar {
 
-    private Student[] listAboutGroup = new Student[10];
+    public Group() {
+        listAboutGroup = new Student[10];
+    }
+
+    private Student[] listAboutGroup;
 
     public Student[] getListAboutGroup() {
         return listAboutGroup;

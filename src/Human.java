@@ -23,6 +23,22 @@ class Human {
         return height;
     }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public void setMan(boolean man) {
+        isMan = man;
+    }
+
     public double getWeight() {
         return weight;
     }

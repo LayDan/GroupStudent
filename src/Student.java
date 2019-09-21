@@ -9,6 +9,14 @@ class Student extends Human {
         this.secondName = secondName;
     }
 
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setSecondName(String secondName) {
+        this.secondName = secondName;
+    }
+
     @Override
     public String toString() {
         return firstName + " " + secondName + " " + super.toString();
