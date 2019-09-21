@@ -1,21 +1,15 @@
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
-import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ParserConfigurationException {
         Group group = new Group();
-        group.addStudent(new Student(18,183,45,true,"Alexander", "Markovich"));
-        group.addStudent(new Student(18,183,45,false,"Alex", "Markovich"));
-        group.addStudent(new Student(18,183,45,true,"Stepan", "Markovich"));
-//        group.addStudent(new Student(18,183,45,false,"Alex", "Markovich"));
-//        group.addStudent(new Student(18,183,45,false,"Alex", "Markovich"));
-        group.addStudent(new Student(18,183,45,true,"Kolder", "Markovich"));
-        group.addStudent(new Student(18,183,45,true,"Karl", "Markovich"));
-        group.addStudent(new Student(18,183,45,false,"Alex", "Markovich"));
-        group.addStudent(new Student(18,183,45,false,"Alex", "Markovich"));
-        group.addStudent(new Student(19,183,45,false,"Alex", "Markovich"));
-        group.seekStudent("Markovich");
+        group.addStudent(new Student(17, 190, 86, true, "Киря", "Полянский"));
+        group.addStudent(new Student(18, 185, 89, true, "Валера", "Васильковский"));
+        group.addStudent(new Student(17, 180, 85, true, "Саня", "Коростелёв"));
+        group.priziv();
         group.writeFile();
         group.readFile();
+        new XmlFileIO().toXml(group);
     }
 }

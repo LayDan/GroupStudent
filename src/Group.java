@@ -7,6 +7,10 @@ public class Group implements IGroup, ICommissar {
 
     private Student[] listAboutGroup = new Student[10];
 
+    public Student[] getListAboutGroup() {
+        return listAboutGroup;
+    }
+
     @Override
     public void addStudent(Student student) {
         boolean add = false;
@@ -190,7 +194,7 @@ public class Group implements IGroup, ICommissar {
                 if (a == null) {
                     break;
                 }
-                if (a.isMan()) {
+                if (a.isMan() && a.getAge() >= 18) {
                     for (int i = 0; i < buf.length; i++) {
                         if (buf[i] == null) {
                             buf[i] = a;

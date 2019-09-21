@@ -1,3 +1,3 @@
 public interface ICommissar {
-    Student [] priziv();
+    Student[] priziv();
 }

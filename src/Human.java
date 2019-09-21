@@ -19,6 +19,14 @@ class Human {
         return age;
     }
 
+    public double getHeight() {
+        return height;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
     @Override
     public String toString() {
         return "age: " + age + "; height: " + height + "; weight: " + weight;
