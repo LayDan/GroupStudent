@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Group>
-
     <Student>
         <FirstName>Валера</FirstName>
         <SecondName>Васильковский</SecondName>
@@ -9,7 +8,22 @@
         <Weight>89.0</Weight>
         <Man>true</Man>
     </Student>
-
+    <Student>
+        <FirstName>Валера</FirstName>
+        <SecondName>Васильковский</SecondName>
+        <Age>18</Age>
+        <Height>185.0</Height>
+        <Weight>89.0</Weight>
+        <Man>true</Man>
+    </Student>
+    <Student>
+        <FirstName>Валера</FirstName>
+        <SecondName>Васильковский</SecondName>
+        <Age>18</Age>
+        <Height>185.0</Height>
+        <Weight>89.0</Weight>
+        <Man>true</Man>
+    </Student>
     <Student>
         <FirstName>Киря</FirstName>
         <SecondName>Полянский</SecondName>
@@ -18,7 +32,22 @@
         <Weight>86.0</Weight>
         <Man>true</Man>
     </Student>
-
+    <Student>
+        <FirstName>Киря</FirstName>
+        <SecondName>Полянский</SecondName>
+        <Age>17</Age>
+        <Height>190.0</Height>
+        <Weight>86.0</Weight>
+        <Man>true</Man>
+    </Student>
+    <Student>
+        <FirstName>Киря</FirstName>
+        <SecondName>Полянский</SecondName>
+        <Age>17</Age>
+        <Height>190.0</Height>
+        <Weight>86.0</Weight>
+        <Man>true</Man>
+    </Student>
     <Student>
         <FirstName>Саня</FirstName>
         <SecondName>Коростелёв</SecondName>
@@ -27,5 +56,20 @@
         <Weight>85.0</Weight>
         <Man>true</Man>
     </Student>
-
+    <Student>
+        <FirstName>Саня</FirstName>
+        <SecondName>Коростелёв</SecondName>
+        <Age>17</Age>
+        <Height>180.0</Height>
+        <Weight>85.0</Weight>
+        <Man>true</Man>
+    </Student>
+    <Student>
+        <FirstName>Саня</FirstName>
+        <SecondName>Коростелёв</SecondName>
+        <Age>17</Age>
+        <Height>180.0</Height>
+        <Weight>85.0</Weight>
+        <Man>true</Man>
+    </Student>
 </Group>

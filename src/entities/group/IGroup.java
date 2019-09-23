@@ -1,3 +1,7 @@
+package entities.group;
+
+import entities.Student;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 

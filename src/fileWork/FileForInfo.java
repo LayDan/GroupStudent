@@ -1,3 +1,5 @@
+package fileWork;
+
 import java.io.File;
 
 public class FileForInfo {

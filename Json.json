@@ -1,0 +1,35 @@
+{
+  "listAboutGroup": [
+    {
+      "firstName": "Киря",
+      "secondName": "Полянский",
+      "age": 17,
+      "height": 190.0,
+      "weight": 86.0,
+      "isMan": true
+    },
+    {
+      "firstName": "Валера",
+      "secondName": "Васильковский",
+      "age": 18,
+      "height": 185.0,
+      "weight": 89.0,
+      "isMan": true
+    },
+    {
+      "firstName": "Саня",
+      "secondName": "Коростелёв",
+      "age": 17,
+      "height": 180.0,
+      "weight": 85.0,
+      "isMan": true
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

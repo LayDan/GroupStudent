@@ -1,5 +1,9 @@
+package entities.group;
+
+import entities.Student;
+import fileWork.FileForInfo;
+
 import java.io.*;
-import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -23,7 +27,7 @@ public class Group implements IGroup, ICommissar {
                 listAboutGroup[i] = student;
                 System.out.println(student.getFirstName() + " " + student.getSecondName() + " успешно добавлен в группу");
                 add = true;
-                sort(true);
+//                sort(true);
                 break;
             }
         }
