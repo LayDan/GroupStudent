@@ -27,6 +27,7 @@ public class Student extends Human {
     public String getSecondName() {
         return secondName;
     }
+
     @Override
     public String toString() {
         return firstName + " " + secondName + " " + super.toString();
